@@ -9,3 +9,5 @@ gem "azure-storage-blob",
 gem "azure-storage-common", 
     git: "https://github.com/thanostak/azure-storage-ruby.git",
     glob: "common/*.gemspec"
+
+gem "coveralls", require: false
