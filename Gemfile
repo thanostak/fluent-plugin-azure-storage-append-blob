@@ -2,8 +2,10 @@ source "https://rubygems.org"
 
 gemspec
 
-git "https://github.com/thanostak/azure-storage-ruby.git" do
-    gem "azure-storage-common", glob: "common/*.gemspec"
-    gem "azure-storage-blob", glob: "blob/*.gemspec"
-end
+gem "azure-storage-blob",
+    git: "https://github.com/thanostak/azure-storage-ruby.git",
+    glob: "blob/*.gemspec"
 
+gem "azure-storage-common", 
+    git: "https://github.com/thanostak/azure-storage-ruby.git",
+    glob: "common/*.gemspec"
