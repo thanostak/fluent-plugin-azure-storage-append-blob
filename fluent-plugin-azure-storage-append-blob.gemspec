@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name = 'fluent-plugin-azure-storage-append-blob'
-  spec.version = '0.2.1'
+  spec.version = '0.2.2'
   spec.authors = ['Microsoft Corporation']
   spec.email = ['']
 
@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'test-unit', '~> 3.0'
-  spec.add_runtime_dependency 'azure-storage-blob', '~> 2.0'
+  spec.add_runtime_dependency 'azure-storage-blob', '~> 2.0', '>= 2.0.4'
   spec.add_runtime_dependency 'fluentd', ['>= 0.14.10', '< 2']
 end
