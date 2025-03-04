@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name = 'fluent-plugin-azure-storage-append-blob-jamf'
   spec.version = '0.0.1'
-  spec.authors = ['Thanos Takourlis]
+  spec.authors = ['Thanos Takourlis']
   spec.email = ['']
 
   spec.summary = 'Azure Storage Append Blob output plugin for Fluentd event collector'
