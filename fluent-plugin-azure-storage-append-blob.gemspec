@@ -25,6 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 2.5'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'test-unit', '~> 3.0'
-  spec.add_runtime_dependency 'azure-storage-blob', '~> 2.0.5'
   spec.add_runtime_dependency 'fluentd', ['>= 0.14.10', '< 2']
 end
